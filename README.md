@@ -15,9 +15,9 @@ Vous cherchez du travail et vous décidez de créer votre CV en ligne. Pour cela
 * Étape 3 : Ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
 * Étape 4 : Ajoutez 3 sections avec un titre secondaire (mon expérience, mes compétences, ma formation). Chaque section contient un paragraphe ou une liste à puce.
 
-Vérifiez bien que vous avez les éléments suivants :
+### Vérifiez bien que vous avez les éléments suivants :
 
-La page HTML est un CV.
+  ✅ La page HTML est un CV.
 
   ✅ Le titre principal est en `<h1>`.
 
