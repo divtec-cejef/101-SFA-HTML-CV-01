@@ -19,12 +19,12 @@ Vérifiez bien que vous avez les éléments suivants :
 
 La page HTML est un CV.
 
-    ✅ Le titre principal est en `<h1>`.
+  ✅ Le titre principal est en `<h1>`.
 
-    ✅ Une photo miniature cliquable renvoie sur la même photo agrandie.
+  ✅ Une photo miniature cliquable renvoie sur la même photo agrandie.
 
-    ✅ 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
+  ✅ 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
 
-    ✅ Chaque section contient un paragraphe ou une liste à puce.
-    
-    Source de cet exercices : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/6725196-entrainez-vous-en-structurant-votre-cv
+  ✅ Chaque section contient un paragraphe ou une liste à puce.
+
+Source de cet exercice : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/6725196-entrainez-vous-en-structurant-votre-cv
