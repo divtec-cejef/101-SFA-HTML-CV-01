@@ -8,7 +8,8 @@ Une fois que vous avez terminé, vous pouvez comparer votre travail avec les pis
 
 Vous cherchez du travail et vous décidez de créer votre CV en ligne. Pour cela, vous allez devoir créer votre première page HTML.
 
-**Avant de commencer**, je vous conseille de lire cet article : https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c
+**Avant de commencer**, je vous conseille de lire cet article : 
+https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c
 
 ## Votre mission
 
