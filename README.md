@@ -17,17 +17,43 @@ https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e0
 * Étape 2 : Ajoutez votre nom et votre prénom en titre principal.
 * Étape 3 : Ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
 * Étape 4 : Ajoutez 3 sections avec un titre secondaire (mon expérience, mes compétences, ma formation). Chaque section contient un paragraphe ou une liste à puce.
+* Étape 5 : Ajoutez-y les effets de style CSS suivants :
+    * changer la couleur d'un des textes ;
+    * changer l'alignement d'un des textes ;
+    * appliquer une image de fond à la page ;
+    * utiliser une police personnalisée via @font-face ;
+    * définir la bordure d'un élément ;
+    * définir l'ombre d'un élément.
 
 ### Vérifiez bien que vous avez les éléments suivants :
 
-  ✅ La page HTML est un CV.
+    ✅ La page HTML est un CV.
+    
+    ✅ Le titre principal est en `<h1>`.
+    
+    ✅ Une photo miniature cliquable renvoie sur la même photo agrandie.
+    
+    ✅ 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
+    
+    ✅ Chaque section contient un paragraphe ou une liste à puce.
+    
+    ✅ Vous avez une page .html et un fichier .css.
+    
+    ✅ La couleur d’un des textes est changée.
+    
+    ✅ L’alignement d’un des textes est changé.
+    
+    ✅ Une image de fond est appliquée à la page.
+    
+    ✅ Une police personnalisée est utilisée via @font-face.
+    
+    ✅ La bordure d’un élément est définie.
+    
+    ✅ L’ombre d’un élément est définie.
 
-  ✅ Le titre principal est en `<h1>`.
+## Exemple de solution
+https://static.oc-static.com/activities/199/evaluation_resources/mettez-en-forme-votre-cv_exemple-2019-01-03T082017.zip
 
-  ✅ Une photo miniature cliquable renvoie sur la même photo agrandie.
-
-  ✅ 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
-
-  ✅ Chaque section contient un paragraphe ou une liste à puce.
-
-Source de cet exercice : https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/6725196-entrainez-vous-en-structurant-votre-cv
+## Sources de cet exercice : 
+* https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/6725196-entrainez-vous-en-structurant-votre-cv
+* https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/6725256-entrainez-vous-en-mettant-en-forme-votre-cv
