@@ -27,29 +27,29 @@ https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e0
 
 ### Vérifiez bien que vous avez les éléments suivants :
 
-    ✅ La page HTML est un CV.
-    
-    ✅ Le titre principal est en `<h1>`.
-    
-    ✅ Une photo miniature cliquable renvoie sur la même photo agrandie.
-    
-    ✅ 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
-    
-    ✅ Chaque section contient un paragraphe ou une liste à puce.
-    
-    ✅ Vous avez une page .html et un fichier .css.
-    
-    ✅ La couleur d’un des textes est changée.
-    
-    ✅ L’alignement d’un des textes est changé.
-    
-    ✅ Une image de fond est appliquée à la page.
-    
-    ✅ Une police personnalisée est utilisée via @font-face.
-    
-    ✅ La bordure d’un élément est définie.
-    
-    ✅ L’ombre d’un élément est définie.
+✅ La page HTML est un CV.
+
+✅ Le titre principal est en `<h1>`.
+
+✅ Une photo miniature cliquable renvoie sur la même photo agrandie.
+
+✅ 3 sections (mon expérience, mes compétences, ma formation) sont en titre `<h2>`.
+
+✅ Chaque section contient un paragraphe ou une liste à puce.
+
+✅ Vous avez une page `.html` et un fichier `.css`.
+
+✅ La couleur d’un des textes est changée.
+
+✅ L’alignement d’un des textes est changé.
+
+✅ Une image de fond est appliquée à la page.
+
+✅ Une police personnalisée est utilisée via `@font-face`.
+
+✅ La bordure d’un élément est définie.
+
+✅ L’ombre d’un élément est définie.
 
 ## Exemple de solution
 https://static.oc-static.com/activities/199/evaluation_resources/mettez-en-forme-votre-cv_exemple-2019-01-03T082017.zip
