@@ -10,8 +10,10 @@ travail avec ma **Check-list**
 Vous cherchez du travail et vous décidez de créer votre CV en ligne.
 Pour cela, vous allez devoir créer votre première page HTML.
 
-**Avant de commencer**, je vous conseille de lire cet article : 
-[Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
+**Avant de commencer**, je vous conseille de lire les articles suivants: 
+* [Partie 1 - Découvrez les base de HTML5 ](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+* [Créer une page web de base avec HTML & CSS](https://fallinov.medium.
+com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
 
 
 ## Votre mission
