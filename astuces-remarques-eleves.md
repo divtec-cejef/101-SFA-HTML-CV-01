@@ -1,5 +1,5 @@
-* langue en français `fr`
-*  Pas d'espaces dans les id ou class, utiliser des `-` ou  `_`. Tout en minuscule sans accents
+* Définir la langue en français `fr`
+* Pas d'espaces dans les id ou class, utiliser des `-` ou  `_`. Tout en minuscule sans accents
 * toujours terminer par une ligne vide à la fin d'un fichier de code.
 * sous-listes
 * Pas d'espaces dans les id ou class, utiliser des - ou _. Tout en minuscule sans accents
@@ -11,7 +11,7 @@
 * un `<p>` ne peut pas contenir de titres.
 * on utilise les `<p>` uniquement pour mettre des phrases avec des balise de mise en forme : `<strong> <em> <a> ...`
 * remplacer par une `<div>`
-*  Pas de texte sans balise, utiliser un `<p>` ou une `<div>`
+* Pas de texte sans balise, utiliser un `<p>` ou une `<div>`
 * Organiser votre site en créant un dossier pour les images et un autre pour le css
 * Nom de tous les fichiers, y compris les images, sans caractères spéciaux, accents ou espaces.
 
