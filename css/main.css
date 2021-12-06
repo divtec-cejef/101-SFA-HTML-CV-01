@@ -61,8 +61,7 @@ h1, h1 + p
 }
 
 h2 {
-    color: #100c0d;
-    text-shadow: 2px 2px 5px deepskyblue;
+    color: deepskyblue;
 }
 
 header {
@@ -89,4 +88,14 @@ header .logo img
 main {
     clear: both;
     padding: 20px;
+}
+
+footer a {
+    color: #100c0d;
+    text-shadow: 2px 2px 5px deeppink;
+}
+
+footer a:hover {
+    color: deeppink;
+    text-shadow: 1px 1px 5px deeppink;
 }
