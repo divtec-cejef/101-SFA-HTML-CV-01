@@ -1,4 +1,4 @@
-@font-face 
+@font-face
 {
     font-family: 'droid_sansregular';
     src: url('../fonts/DroidSans-webfont.eot');
@@ -61,7 +61,8 @@ h1, h1 + p
 }
 
 h2 {
-    color: deepskyblue;
+    color: #100c0d;
+    text-shadow: 2px 2px 5px deepskyblue;
 }
 
 header {
@@ -78,9 +79,11 @@ header .logo {
 header .logo img
 {
     float: left;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px black;
+    border: 2px dashed greenyellow;
+    padding: 10px;
     margin-right: 40px;
+    margin-bottom: 60px;
+    box-shadow: 4px 4px 10px greenyellow;
 }
 
 main {
