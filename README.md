@@ -58,7 +58,7 @@ un paragraphe ou une liste à puce.
 
 ✅ L’alignement d’un des textes est changé.
 
-✅ Une couleur ou une image de fond est appliquée à la page.
+✅ Une image de fond est appliquée à la page.
 
 ✅ Une police personnalisée est utilisée via @font-face.
 
