@@ -70,7 +70,7 @@ un paragraphe ou une liste à puce.
 ✅ L’ombre d’un élément est définie.
 
 ## Exemples de solutions
-* https://fallinov.github.io/HTML-CV
+* https://divtec-cejef.github.io/HTML-CV/
 * https://static.oc-static.com/activities/199/evaluation_resources/mettez-en-forme-votre-cv_exemple-2019-01-03T082017.zip
 
 ## Sources de cet exercice :
