@@ -20,13 +20,17 @@ Pour cela, vous allez devoir créer votre première page HTML.
 ## Votre mission
 
 * Étape 1 : Créez une fichier `index.html`.
-* Étape 2 : Ajoutez votre nom et votre prénom au en titre principal.
-* Étape 3 : Ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
-* Étape 4 : Ajoutez trois sections avec un titre secondaire :
+* Étape 2 : Découper votre page avec un entête, un contenu principal et un pied de page.
+* Étape 3 : Dans l'entête, créer un menu de navigation contenant des liens internes à la page, ancres,
+  qui pointent vers les trois sections de votre CV (expérience, compétences, formation)
+* Étape 4 : Ajoutez votre nom et votre prénom au titre principal.
+* Étape 5 : Ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
+* Étape 6 : Ajoutez trois sections avec un titre secondaire :
   * Mon expérience (vous pouvez en inventer 😅)
   * Mes compétences
   * Ma formation
   * _Chaque section contient un paragraphe ou une liste à puce._
+* Étape 7 : Ajouter le copyright, l'année et votre adresse email dans le pied de page.
 
 ## Check-list
 
@@ -35,6 +39,9 @@ Pour cela, vous allez devoir créer votre première page HTML.
 ✅ On trouve votre nom et prénom dans l'onglet de la page.
 
 ✅ L'icône de la page s'affiche dans l'onglet.
+
+✅ Le contenu de la page contient un entête `<header`> un contenu principal `<main>`
+  est pied de page `<footer>`.
 
 ✅ Le titre principal est un `<h1>` et contient votre nom et prénom.
 
