@@ -51,5 +51,5 @@ Pour cela, vous allez devoir **enrichir votre page HTML avec du .CSS**.
 ✅ L’ombre d’un élément est définie.
 
 ## Exemples de solutions
-* https://divtec-cejef.github.io/101-SFA-HTML-CV-01/
-* https://static.oc-static.com/activities/198/evaluation_resources/structurez-votre-cv_exemple-2019-01-03T081950.zip
+* https://divtec-cejef.github.io/101-SFA-HTML-CV-02/
+* https://static.oc-static.com/activities/199/evaluation_resources/mettez-en-forme-votre-cv_exemple-2019-01-03T082017.zip
