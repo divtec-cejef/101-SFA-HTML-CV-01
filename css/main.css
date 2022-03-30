@@ -85,20 +85,7 @@ main {
 }
 
 main .liseret {
-    position: absolute;
-    background-color: deeppink;
-    width: 20px;
-    height: 500px;
-}
-
-main .cols {
-    margin-left: 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main .cols section {
-    flex: 1;
+   display: none;
 }
 
 footer {
