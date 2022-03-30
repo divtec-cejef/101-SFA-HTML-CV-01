@@ -67,15 +67,6 @@ header {
     text-align: center;
 }
 
-header .nom {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
 header .logo img {
     border: 2px dashed greenyellow;
     padding: 10px;
