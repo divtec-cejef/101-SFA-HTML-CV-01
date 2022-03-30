@@ -64,23 +64,28 @@ h2 {
 
 header {
     padding: 20px;
+    text-align: center;
 }
 
-header .logo {
+header .nom {
+    text-align: center;
     font-size: 3rem;
     font-weight: bold;
     text-decoration: underline;
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
-header .logo img
-{
-    float: left;
+header .logo img {
     border: 2px dashed greenyellow;
     padding: 10px;
     margin-right: 40px;
-    margin-bottom: 60px;
     box-shadow: 4px 4px 10px greenyellow;
+}
+
+header nav {
+    display: inline-block;
+    text-align: left;
 }
 
 main {
@@ -90,7 +95,7 @@ main {
 
 main .liseret {
     position: absolute;
-    background-color: hotpink;
+    background-color: deeppink;
     width: 20px;
     height: 500px;
 }
@@ -102,7 +107,7 @@ main .cols {
 }
 
 main .cols section {
-    flex: 2;
+    flex: 1;
 }
 
 footer {
