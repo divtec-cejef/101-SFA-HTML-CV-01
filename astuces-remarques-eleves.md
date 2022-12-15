@@ -53,6 +53,7 @@ racine-de-mon-site
     * Juste : `<ul class="sommaire">`
 * Les `<p>` peuvent uniquement contenir des éléments inline comme : `<strong>`, `<em>`, `<a>`, ...
 * On ne peut pas écrire des textes directement dans le `<body>` il faut les ajouter dans un élément comme : `<p>`, `<div>`, `<h1>`, ...
+* Aérer en ajoutant une ligne vide avant les <h2>
 * Pas utiliser `<br>` pour créer des espaces ou des marges. On utilise les `<br>` uniquement dans les blocs de textes.
   * Utiliser le CSS avec `padding` ou `margin` pour créer des marges et espacer les éléments.
 * Ne pas oublier de préciser le texte alternatif des images avec l'attribut `alt=""`
