@@ -60,6 +60,7 @@ racine-de-mon-site
 ```html
     <img src="img/fifty-burgers.png" alt="Logo Fifty Burgers"/>
 ```` 
+* Préférer les entités HTML pour les caractères spéciaux. Pour © utiliser &copy;
 * Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
 * Toujours **terminer** vos fichiers de code (HTML, CSS, JavaScript, ...) par une **nouvelle ligne vide** pour simplifier les traitements automatisés.
 * Valider votre code : https://validator.w3.org/nu/
