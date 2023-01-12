@@ -66,7 +66,9 @@ racine-de-mon-site
 * Valider votre code : https://validator.w3.org/nu/
 
 ## CSS
-* Il manque des instructions pour le designe de base du site
+* Proposer un style différent pour les liens survolés `a:hover {...}`
+* `max-width: 100%` pour toutes les images
+* Il manque des instructions pour le design de base du site
 ```css
 body {
     font-family: Verdana, sans-serif;   /* Police d'écriture de base */
@@ -80,6 +82,13 @@ body {
 * utiliser des noms de classes CSS représentatifs et compréhensibles.
 * Utiliser les `em` à la place des % pour les tailles de textes : `200% => 2em`
 * Toujours écrire les noms des couleurs en minuscules
+* Toujours ajouter un espace avant l'accolade d'ouverture
+```css
+/* FAUX */
+body{
+/* JUSTE */
+body {
+```
 * Toujours ajouter une ligne blanche entre deux blocs de règles CSS
 ```
 h2 {
@@ -120,6 +129,7 @@ h3 {
     color:red;
 }
 ```
+* Si valeur `0` pas nécessaire de préciser l'unité : `margin: 0px => margin: 0;`
 
 
 
