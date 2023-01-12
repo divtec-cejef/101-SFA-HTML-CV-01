@@ -60,6 +60,18 @@ racine-de-mon-site
 ```html
     <img src="img/fifty-burgers.png" alt="Logo Fifty Burgers"/>
 ```` 
+* Indentation, mettre à la ligne les éléments contenus dans d'autres éléments et les indenter avec 2 ou 4 espaces.
+```html
+<!-- FAUX -->
+<main><h1>Mon titre</h1>
+<p>Mon para</p>
+</main>
+<!-- JUSTE -->
+<main>
+  <h1>Mon titre</h1>
+  <p>Mon para</p>
+</main>
+```
 * Préférer les entités HTML pour les caractères spéciaux. Pour © utiliser &copy;
 * Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
 * Toujours **terminer** vos fichiers de code (HTML, CSS, JavaScript, ...) par une **nouvelle ligne vide** pour simplifier les traitements automatisés.
