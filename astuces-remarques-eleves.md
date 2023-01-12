@@ -24,7 +24,7 @@ racine-de-mon-site
   └─ favicon.ico
   └─ index.html
  ```
-* Nom des fichiers et dossiers **en minuscules et sans caractères spéciaux** `CSS/TropStylé.css` > `css/trop-style.css`
+* Nom des fichiers et dossiers **en minuscules, sans espaes et sans caractères spéciaux** `CSS/Trop Stylé.css` > `css/trop-style.css`
  y compris les images et polices.
 * La page d'accueil de votre site doit se nommer `index.html` tout en minuscule.
 * Définir la **bonne langue** dans `<html>`.
@@ -71,6 +71,15 @@ racine-de-mon-site
   <h1>Mon titre</h1>
   <p>Mon para</p>
 </main>
+```
+* Eviter les ligne de code trop grandes (plus de 100 caractère)
+```html
+<!-- FAUX -->
+<a href="./icone/apple-touch-icon.png"><img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" ></a>
+<!-- JUSTE -->
+<a href="./icone/apple-touch-icon.png">
+  <img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" >
+</a>
 ```
 * Préférer les entités HTML pour les caractères spéciaux. Pour © utiliser &copy;
 * Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
