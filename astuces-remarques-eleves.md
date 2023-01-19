@@ -85,7 +85,7 @@ racine-de-mon-site
 * Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
 * Toujours **terminer** vos fichiers de code (HTML, CSS, JavaScript, ...) par une **nouvelle ligne vide** pour simplifier les traitements automatisés.
 * Valider votre code : https://validator.w3.org/nu/
-* On peut ajouter le sujet de l'e-mail `<a href="mailto:steve.fallet@divtec.ch?subject=tutu">`
+* On peut ajouter le sujet de l'e-mail `<a href="mailto:steve.fallet@divtec.ch?subject=tutu">` 
 ## CSS
 * Proposer un style différent pour les liens survolés `a:hover {...}`
 * `max-width: 100%` pour toutes les images
