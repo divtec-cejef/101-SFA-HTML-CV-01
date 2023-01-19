@@ -9,6 +9,7 @@ Bonne lecture, Steve.
 racine-de-mon-site
   │  
   └─── css
+  │     └─ fonts.css
   │     └─ main.css
   │ 
   └─── fonts
@@ -73,7 +74,7 @@ racine-de-mon-site
   <p>Mon para</p>
 </main>
 ```
-* Eviter les ligne de code trop grandes (plus de 100 caractère)
+* Eviter les lignes de code trop grandes (plus de 100 caractère)
 ```html
 <!-- FAUX -->
 <a href="./icone/apple-touch-icon.png"><img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" ></a>
@@ -136,6 +137,13 @@ h1 {
 }
 ```
 * Jamais de `font-size` en `px`, utiliser les `em` ou `rem`
+* Manque règle pour la fluidité des images
+```css
+img {
+    max-width:100%;
+    height: auto;
+}
+```
 * utiliser des noms de classes CSS représentatifs et compréhensibles.
 * Utiliser les `em` à la place des % pour les tailles de textes : `200% => 2em`
 * Toujours écrire les noms des couleurs en minuscules
