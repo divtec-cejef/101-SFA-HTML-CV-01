@@ -100,6 +100,8 @@ body {
     background-color: white;            /* couleur d'arrière plan du site */
 }
 ```
+* Pas oublier de définir une police générique `sans-serif`, `serif` ou `cursive` pour les familles de polices
+    `font-family: Roboto, sans-serif;`
 * utiliser des noms de classes CSS représentatifs et compréhensibles.
 * Utiliser les `em` à la place des % pour les tailles de textes : `200% => 2em`
 * Toujours écrire les noms des couleurs en minuscules
