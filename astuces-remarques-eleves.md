@@ -81,6 +81,20 @@ racine-de-mon-site
   <img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" >
 </a>
 ```
+* Séparer le contenu `<body>` en trois parties :
+```html
+<body>
+    <header>
+        ...
+    </header>
+    <main>
+       ...
+    </main>
+    <footer>
+       ...
+    </footer>
+</body>
+```
 * Préférer les entités HTML pour les caractères spéciaux. Pour © utiliser &copy;
 * Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
 * Toujours **terminer** vos fichiers de code (HTML, CSS, JavaScript, ...) par une **nouvelle ligne vide** pour simplifier les traitements automatisés.
@@ -110,10 +124,12 @@ h1 {
     font-weight: 400;
 }
 ```
+* Jamais de `font-size` en `px`, utiliser les `em` ou `rem`
 * utiliser des noms de classes CSS représentatifs et compréhensibles.
 * Utiliser les `em` à la place des % pour les tailles de textes : `200% => 2em`
 * Toujours écrire les noms des couleurs en minuscules
 * Toujours ajouter un espace avant l'accolade d'ouverture
+* Lien pour les e-mails `<a href="mailto:steve.fallet@kode.ch?subject=contact">steve.fallet@kode.ch</a>"`
 ```css
 /* FAUX */
 body{
