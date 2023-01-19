@@ -24,7 +24,7 @@ racine-de-mon-site
   └─ favicon.ico
   └─ index.html
  ```
-* Nom des fichiers et dossiers **en minuscules, sans espaes et sans caractères spéciaux** `CSS/Trop Stylé.css` > `css/trop-style.css`
+* Nom des fichiers et dossiers **en minuscules, sans espaces et sans caractères spéciaux** `CSS/Trop Stylé.css` > `css/trop-style.css`
  y compris les images et polices.
 * La page d'accueil de votre site doit se nommer `index.html` tout en minuscule.
 * Définir la **bonne langue** dans `<html>`.
