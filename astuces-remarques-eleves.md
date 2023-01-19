@@ -103,6 +103,13 @@ body {
 ```
 * Pas oublier de définir une police générique `sans-serif`, `serif` ou `cursive` pour les familles de polices
     `font-family: Roboto, sans-serif;`
+* Dès que l'on change la police d'écriture, il faut préciser l'épaisseur à utiliser
+```css
+h1 {
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-weight: 400;
+}
+```
 * utiliser des noms de classes CSS représentatifs et compréhensibles.
 * Utiliser les `em` à la place des % pour les tailles de textes : `200% => 2em`
 * Toujours écrire les noms des couleurs en minuscules
