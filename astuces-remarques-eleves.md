@@ -42,6 +42,7 @@ racine-de-mon-site
 ```html
 <link rel="icon" href="favicon.ico">
 ```
+* Charger le fichier CSS des polices avant le fichier CSS des styles de base.
 * Pas d'espaces ni de majuscules dans les id ou class, utiliser des `-` ou  `_` à la place. `class="épéeRouge"` > `class="epee-rouge"`
 * Supprimer les espaces inutiles au début des balises.
   * Faux : `<p> apprentie informaticienne 1ère année à l'EMT </p>`
@@ -99,16 +100,26 @@ racine-de-mon-site
 * Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
 * Toujours **terminer** vos fichiers de code (HTML, CSS, JavaScript, ...) par une **nouvelle ligne vide** pour simplifier les traitements automatisés.
 * Valider votre code : https://validator.w3.org/nu/
-* On peut ajouter le sujet de l'e-mail `<a href="mailto:steve.fallet@divtec.ch?subject=tutu">` 
+* On peut ajouter l'objet de l'e-mail `<a href="mailto:steve.fallet@divtec.ch?subject=tutu">` 
 ## CSS
-* Définir le style des liens, couleur. `a { color:red; }`
-* Proposer un style différent pour les liens survolés `a:hover { color:blue; }`
+* Définir le style des liens, couleur.
+```css
+a {
+    color:red;
+}
+```
+* Proposer un style différent pour les liens survolés 
+```css
+a:hover {
+    color:red;
+}
+```
 * `max-width: 100%` pour toutes les images
 * Il manque des instructions pour le design de base du site
 ```css
 body {
     font-family: Verdana, sans-serif;   /* Police d'écriture de base */
-    font-weight: normal;                /* Epaisseur du texte de base*/
+    font-weight: normal;                /* Épaisseur du texte de base*/
     font-size: 1.2rem;                  /* taille du texte de base*/
     line-height: 1.4;                   /* Hauteur de ligne de base, généralement entre 1.3 et 1.7 */
     color: black;                       /* couleur du texte de base*/
