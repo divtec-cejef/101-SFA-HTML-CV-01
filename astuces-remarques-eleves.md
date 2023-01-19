@@ -87,7 +87,8 @@ racine-de-mon-site
 * Valider votre code : https://validator.w3.org/nu/
 * On peut ajouter le sujet de l'e-mail `<a href="mailto:steve.fallet@divtec.ch?subject=tutu">` 
 ## CSS
-* Proposer un style différent pour les liens survolés `a:hover {...}`
+* Définir le style des liens, couleur. `a { color:red; }`
+* Proposer un style différent pour les liens survolés `a:hover { color:blue; }`
 * `max-width: 100%` pour toutes les images
 * Il manque des instructions pour le design de base du site
 ```css
