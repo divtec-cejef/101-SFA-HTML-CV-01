@@ -80,7 +80,10 @@ racine-de-mon-site
 <a href="./icone/apple-touch-icon.png"><img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" ></a>
 <!-- JUSTE -->
 <a href="./icone/apple-touch-icon.png">
-  <img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" >
+  <img src="icone/favicon-32x32.png"
+       alt="photo pour mon cv"
+       title="Cliquez pour agrandir"
+  >
 </a>
 ```
 * Séparer le contenu `<body>` en trois parties :
