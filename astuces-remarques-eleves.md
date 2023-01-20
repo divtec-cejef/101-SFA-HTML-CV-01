@@ -44,7 +44,9 @@ racine-de-mon-site
 <link rel="icon" href="favicon.ico">
 ```
 * Charger le fichier CSS des polices avant le fichier CSS des styles de base.
-* Pas d'espaces ni de majuscules dans les id ou class, utiliser des `-` ou  `_` à la place. `class="épéeRouge"` > `class="epee-rouge"`
+* Pas d'espaces ni de majuscules, ni de caractères spéciaux dans les id ou 
+  class, 
+  utiliser des `-` ou  `_` à la place. `class="épéeRouge"` > `class="epee-rouge"`
 * Supprimer les espaces inutiles au début des balises.
   * Faux : `<p> apprentie informaticienne 1ère année à l'EMT </p>`
   * Juste : `<p>apprentie informaticienne 1ère année à l'EMT</p>`
@@ -115,7 +117,7 @@ a {
 * Proposer un style différent pour les liens survolés 
 ```css
 a:hover {
-    color:red;
+    color:blue;
 }
 ```
 * `max-width: 100%` pour toutes les images
@@ -185,7 +187,7 @@ h1 {
 }
 ```
 * Revenir à la ligne après la `,` si plusieurs sélecteurs
-```
+```css
 /* Faux */ 
 h1, h2, h3 {
     color:red;
@@ -199,6 +201,12 @@ h3 {
 }
 ```
 * Si valeur `0` pas nécessaire de préciser l'unité : `margin: 0px => margin: 0;`
-
+* Pour les images d'arrière-plan, mettre l'url ou le chemin entre guillemets 
+```css
+/* Faux */
+background-image: url(https://img.freepik.com/photos.jpg);
+/* Juste */
+background-image: url("https://img.freepik.com/photos.jpg");
+```
 
 
