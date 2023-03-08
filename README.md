@@ -2,36 +2,48 @@
 
 **À vous de jouer !** Pour vous entraîner, réalisez cet exercice étape par étape.
 
-Une fois que vous avez terminé, vous pouvez comparer, auto-évaluer, votre
-travail avec ma **Check-list**
+Une fois que vous avez terminé, vous pouvez comparer, auto-évaluer, votre travail avec ma **Check-list**
 
 ## Contexte
 
 Vous cherchez du travail et vous décidez de créer votre CV en ligne.
 Pour cela, vous allez devoir créer votre première page HTML.
 
-**Avant de commencer**, réaliser les 7 chapitres de la [Partie 1 - Découvrez les base de HTML5 ](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
-, le 7e étant cet exercice 😀
+### Exemples de solutions
+* https://divtec-cejef.github.io/101-SFA-HTML-CV-01/
+* https://static.oc-static.com/activities/198/evaluation_resources/structurez-votre-cv_exemple-2019-01-03T081950.zip
 
-[![](images/oc-partie-1.png)](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+## Avant de commencer
 
+Réaliser les 6 chapitres de la [Partie 1 - Maîtrisez les bases de HTML5 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061253-tirez-un-maximum-de-ce-cours) du cours [Créez votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)
 
+	
+```
+Partie 1 - Maîtrisez les bases de HTML5
+---------------------------------------
+  1. Tirez un maximum de ce cours
+  2. Comprenez la différence entre HTML et CSS
+  3. Créez votre première page web en HTML
+  4. Organisez votre texte
+  5. Créez un lien hypertexte en HTML
+  6. Insérez des images
+```
 
 ## Votre mission
 
-* Étape 1 : Créez une fichier `index.html`.
-* Étape 2 : Découper le contenu de votre page avec un entête, un contenu principal et un pied de page.
-* Étape 3 : Dans l'entête, ajoutez une photo miniature, sur laquelle on pourra cliquer pour avoir une version agrandie.
-* Étape 4 : Toujours dans l'entête, créer un menu de navigation contenant des liens internes à la page, ancres,
-  qui pointent vers les trois sections de votre CV (expérience, compétences, formation)
-* Étape 5 : Dans le contenu principal, ajoutez votre nom et votre prénom dans un titre principal.
-* Étape 6 : A la suite du titre principal, ajoutez trois sections avec un titre secondaire. 
-  Ajouter une ancre, en mettant un id aux titres secondaires.
+* Étape 1 : Créez un fichier `index.html`.
+* Étape 2 : Lire et réaliser les étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c) 
+* Étape 3 : Découper le contenu de votre page avec un entête, un contenu principal et un pied de page.
+* Étape 4 : Dans l'entête, ajoutez une photo miniature sur laquelle on pourra cliquer pour afficher l'image dans un nouvel onglet.
+* Étape 5 : Toujours dans l'entête, créer un menu de navigation contenant des liens internes à la page, ancres, qui pointent vers les trois sections de votre CV (expérience, compétences, formation)
+* Étape 6 : Dans le contenu principal, ajoutez votre nom et votre prénom dans un titre de niveau 1.
+* Étape 7 : À la suite du titre principal, ajoutez trois sections avec un titre de niveau 2. 
+  Ajouter une ancre, en mettant un `id` aux titres secondaires.
   * Mon expérience (vous pouvez en inventer 😅)
   * Mes compétences
   * Ma formation
-  * _Chaque section contient un paragraphe ou une liste à puce._
-* Étape 7 : Ajouter le copyright, l'année et votre adresse email dans le pied de page.
+  * _Chaque section contient un paragraphe ou une liste à puces._
+* Étape 8 : Ajouter le copyright, l'année et votre adresse e-mail dans le pied de page.
 
 ## Check-list
 
@@ -41,26 +53,21 @@ Pour cela, vous allez devoir créer votre première page HTML.
 
 ✅ L'icône de la page s'affiche dans l'onglet.
 
-✅ Le contenu de la page contient un entête `<header`> un contenu principal `<main>`
-  est pied de page `<footer>`.
+✅ Le contenu de la page contient un entête `<header`> un contenu principal `<main>` et un pied de page `<footer>`.
 
-✅ Dans l'entête, une photo miniature cliquable renvoie sur la même photo agrandie.
+✅ Dans l'entête, une photo miniature cliquable affiche la photo dans un nouvel onglet.
 
 ✅ Le menu de navigation vous permet d'atteindre les trois sections de votre CV (expérience, compétences, formation).
 
 ✅ Le titre principal est un `<h1>` et contient votre nom et prénom.
 
-✅ Trois sections en titre `<h2>` :
-* mon expérience
-* mes compétences
-* ma formation
+✅ Votre page a trois sections avec un titre `<h2>` :
+* Mon expérience
+* Mes compétences
+* Ma formation
 
 ✅ Chaque section contient au minimum un paragraphe ou une liste à puce.
 
-✅ Dans le pied de page on voit '©2022' suvi de votre adresse email.
+✅ Dans le pied de page on voit '©2023' suivi de votre adresse e-mail.
 
-✅ Votre email est un lien cliquable qui permet de vous écrire un email.
-
-## Exemples de solutions
-* https://divtec-cejef.github.io/101-SFA-HTML-CV-01/
-* https://static.oc-static.com/activities/198/evaluation_resources/structurez-votre-cv_exemple-2019-01-03T081950.zip
+✅ Votre e-mail est un lien cliquable qui permet de vous écrire un e-mail.
