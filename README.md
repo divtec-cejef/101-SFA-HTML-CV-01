@@ -35,15 +35,25 @@ Partie 1 - Maîtrisez les bases de HTML5
 * Étape 2 : Lire et réaliser les étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c) 
 * Étape 3 : Découper le contenu de votre page avec un entête, un contenu principal et un pied de page.
 * Étape 4 : Dans l'entête, ajoutez une photo miniature sur laquelle on pourra cliquer pour afficher l'image dans un nouvel onglet.
-* Étape 5 : Toujours dans l'entête, créer un menu de navigation contenant des liens internes à la page, ancres, qui pointent vers les trois sections de votre CV (expérience, compétences, formation)
-* Étape 6 : Dans le contenu principal, ajoutez votre nom et votre prénom dans un titre de niveau 1.
-* Étape 7 : À la suite du titre principal, ajoutez trois sections avec un titre de niveau 2. 
-  Ajouter une ancre, en mettant un `id` aux titres secondaires.
-  * Mon expérience (vous pouvez en inventer 😅)
+* Étape 5 : Toujours dans l'entête, créer un menu de navigation contenant les trois liens vers les sections de votre page. Laissez les liens vides pour le moment: `<a href="#">Mon Expérience</a>`
+  * Mon expérience
   * Mes compétences
   * Ma formation
+* Étape 6 : Dans le contenu principal, ajoutez votre nom et votre prénom dans un titre de niveau 1.
+* Étape 7 : À la suite du titre principal, ajoutez trois sections avec un titre de niveau 2.
+  * Mon expérience (vous pouvez en inventer 😅)
+  * Mes compétences (ce que vous maîtrisez en informatique)
+  * Ma formation (Votre parcours scolaire)
   * _Chaque section contient un paragraphe ou une liste à puces._
-* Étape 8 : Ajouter le copyright, l'année et votre adresse e-mail dans le pied de page.
+* Étape 8 : Ajouter une ancre, en mettant ajoutant un attribut `id` aux titres de niveau 2.
+```html
+<h2 id="experience">Mon Expérience de fou</h2>
+```
+* Étape 9 : Modifier les liens de votre menu pout qu'ils pointent vers vos `id`
+```html
+<a href="#experience">Mon Expérience</a>
+```
+* Étape 10 : Ajouter le copyright, l'année et votre adresse e-mail dans le pied de page.
 
 ## Check-list
 
