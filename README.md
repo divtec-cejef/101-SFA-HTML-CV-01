@@ -17,13 +17,16 @@ Pour cela, vous allez devoir **enrichir votre page HTML avec du .CSS**.
 **Avant de commencer**, réaliser les 6 chapitres de la [Partie 2 - Mettez en forme vos pages web avec CSS3
 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061278-integrez-le-css-dans-la-page-html)
 
+```
+Partie 2 - Mettez en forme vos pages web avec CSS3
+--------------------------------------------------
 1. Intégrez le CSS dans la page HTML
 2. Changez l'apparence du texte
 3. Ajoutez de la couleur et un fond
 4. Créez des bordures et des ombres
 5. Créez des apparences dynamiques
-6. Quiz : Mettre en forme des pages web avec CSS3
-
+Quiz : Mettre en forme des pages web avec CSS3
+```
 
 ## Votre mission
 
