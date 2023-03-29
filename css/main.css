@@ -88,6 +88,32 @@ main .liseret {
    display: none;
 }
 
+
+main #galerie {
+    text-align: center;
+}
+
+main .grille {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+main .grille img {
+    width: 300px;
+    border: 10px solid deeppink;
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+
+main .grille img:hover {
+    filter: grayscale(0%);
+}
+
+
 footer {
     text-align: center;
 }
