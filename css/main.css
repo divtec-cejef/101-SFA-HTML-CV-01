@@ -3,9 +3,9 @@
     font-family: 'droid_sansregular';
     src: url('../fonts/DroidSans-webfont.eot');
     src: url('../fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/DroidSans-webfont.woff') format('woff'),
-         url('../fonts/DroidSans-webfont.ttf') format('truetype'),
-         url('../fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    url('../fonts/DroidSans-webfont.woff') format('woff'),
+    url('../fonts/DroidSans-webfont.ttf') format('truetype'),
+    url('../fonts/DroidSans-webfont.svg#droid_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -85,7 +85,7 @@ main {
 }
 
 main .liseret {
-   display: none;
+    display: none;
 }
 
 
@@ -117,11 +117,12 @@ main .grille li img {
     height: 300px;
     border: 10px solid deeppink;
     filter: grayscale(100%);
-    transition: filter 1s;
+    transition: filter 3s;
 }
 
 main .grille img:hover {
     filter: grayscale(0%);
+    transition: filter 0.5s;
 }
 
 
