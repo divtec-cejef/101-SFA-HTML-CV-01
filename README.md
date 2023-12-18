@@ -45,6 +45,8 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
     <a href="#experience">Mon Expérience</a>
     ```
 1. Dans le pied de page, ajoute le copyright, l'année et ton adresse e-mail.
+1. Publie ton CV en ligne sur GitHub Pages.
+   * [🎥 Vidéo "Créer et publier une page HTML avec GitHub"](https://www.youtube.com/watch?v=W7Appo5snbQ)
 
 ## Check-list
 
@@ -74,3 +76,5 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
 ✅ Dans le pied de page, on voit '©2023' suivi de ton adresse e-mail.
 
 ✅ Ton e-mail est un lien cliquable qui permet d'envoyer un e-mail directement.
+
+✅ Ton CV est publié en ligne sur GitHub Pages.
