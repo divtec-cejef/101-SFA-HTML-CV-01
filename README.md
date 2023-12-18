@@ -15,7 +15,11 @@ Pour cela, vous allez devoir créer votre première page HTML.
 
 ## Avant de commencer
 
-Réaliser les 6 chapitres de la [Partie 1 - Maîtrisez les bases de HTML5 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061253-tirez-un-maximum-de-ce-cours) du cours [Créez votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)
+Suivre les cours Treehouse suivants
+  1. [Introduction to HTML and CSS (2h)](https://teamtreehouse.com/library/introduction-to-html-and-css)
+  2. [HTML Basics (2-3h)](https://teamtreehouse.com/library/html-basics-2)
+
+OU vou pouvez réaliser les 6 chapitres de la [Partie 1 - Maîtrisez les bases de HTML5 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061253-tirez-un-maximum-de-ce-cours) du cours [Créez votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)
 
 	
 ```
