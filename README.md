@@ -20,7 +20,7 @@ Suis les cours Treehouse suivants
 _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases de HTML5 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061253-tirez-un-maximum-de-ce-cours) du cours [Créez ton site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)_
 
 ## Ta mission
-1. Crée une nouvelle **branche** `01-cv-html` dans ton dépôt.
+1. Crée une nouvelle **branche** `mon-cv-html` dans ton dépôt.
 1. Crée et ajoute un fichier `index.html` au dépôt.
 1. Lis et mets en pratique les étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
 1. Structure ta page avec un **entête**, un **contenu principal** et un **pied de page**.
@@ -47,6 +47,8 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
 1. Dans le pied de page, ajoute le copyright, l'année et ton adresse e-mail.
 1. Publie ton CV en ligne sur GitHub Pages.
    * [🎥 Vidéo "Créer et publier une page HTML avec GitHub"](https://www.youtube.com/watch?v=W7Appo5snbQ)
+
+> N'oublie pas de **commit** et **push** régulièrement tes modifications sur GitHub.
 
 ## Check-list
 
