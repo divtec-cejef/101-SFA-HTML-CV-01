@@ -9,7 +9,7 @@ Une fois que tu as terminé, tu peux comparer, auto-évaluer, ton travail avec l
 Tu cherches du travail et tu décides de créer ton CV en ligne.
 Pour cela, tu vas devoir créer ta première page HTML.
 
-**Exemple de solution** : [Le CV de Steve Fallet](https://divtec-cejef.github.io/101-SFA-HTML-CV-01/)
+> Pour t'aider, tu peux t'inspirer de [cet exemple de CV](https://divtec-cejef.github.io/101-SFA-HTML-CV-01/)
 
 ## Avant de commencer
 
@@ -80,3 +80,6 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
 ✅ Ton e-mail est un lien cliquable qui permet d'envoyer un e-mail directement.
 
 ✅ Ton CV est publié en ligne sur GitHub Pages.
+
+Quand tu as terminé, partage ton travail avec un ou plusieurs de tes collègues de 
+classes pour qu'ils puissent t'évaluer.
