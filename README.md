@@ -20,33 +20,33 @@ Suis les cours Treehouse suivants
 _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases de HTML5 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061253-tirez-un-maximum-de-ce-cours) du cours [Créez ton site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3)_
 
 ## Ta mission
-* Étape 1 : Crée un fichier `index.html`.
-* Étape 2 : Lis et mets en pratique les étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
-* Étape 3 : Structure ta page avec un entête, un contenu principal et un pied de page.
-* Étape 4 : Dans l'entête, ajoute une photo miniature. Assure-toi qu'un clic dessus ouvre l'image dans un nouvel onglet.
-* Étape 5 : Toujours dans l'entête, crée un menu de navigation avec trois liens vers les sections de ta page. Pour l'instant, laisse les liens vides : `<a href="#">Mon Expérience</a>`
-  * Mon expérience
-  * Mes compétences
-  * Ma formation
-* Étape 6 : Dans le contenu principal, insère ton nom et ton prénom dans un titre de niveau 1.
-* Étape 7 : Juste après le titre principal, ajoute trois sections avec un titre de niveau 2.
-  * Mon expérience (n'hésite pas à en inventer 😅)
-  * Mes compétences (ce que tu maîtrises en informatique)
-  * Ma formation (ton parcours scolaire)
-  * _Chaque section doit contenir un paragraphe ou une liste à puces._
-* Étape 8 : Ajoute une ancre à tes titres de niveau 2 en leur ajoutant un attribut `id`.
-```html
-<h2 id="experience">Mon Expérience de fou</h2>
-```
-* Étape 9 : Modifie les liens de ton menu pour qu'ils pointent vers tes `id`
-```html
-<a href="#experience">Mon Expérience</a>
-```
-* Étape 10 : Dans le pied de page, ajoute le copyright, l'année et ton adresse e-mail.
+1. Crée une nouvelle **branche** `01-cv-html` dans ton dépôt.
+1. Crée et ajoute un fichier `index.html` au dépôt.
+1. Lis et mets en pratique les étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
+1. Structure ta page avec un **entête**, un **contenu principal** et un **pied de page**.
+1. Dans l'entête, ajoute une **photo**.
+   2. Assure-toi qu'un clic dessus ouvre l'image dans un nouvel onglet.
+1. Toujours dans l'entête, crée un **menu de navigation** avec **trois liens** vers les sections de ta page. Pour l'instant, laisse les liens vides : `<a href="#">Mon Expérience</a>`
+   * Mon expérience
+   * Mes compétences
+   * Ma formation
+1. Dans le contenu principal, insère ton **nom** et ton **prénom** dans un **titre de niveau 1**.
+1. Juste après le titre principal, ajoute **trois sections** avec un **titre de niveau 2**.
+   * Mon expérience (n'hésite pas à en inventer 😅)
+   * Mes compétences (ce que tu maîtrises en informatique)
+   * Ma formation (ton parcours scolaire)
+   * _Chaque section doit contenir un paragraphe ou une liste à puces._
+1. Ajoute une ancre à tes titres de niveau 2 en leur ajoutant un attribut `id`.
+    ```html
+    <h2 id="experience">Mon Expérience de fou</h2>
+    ```
+1. Modifie les liens de ton menu pour qu'ils pointent vers tes `id`
+    ```html
+    <a href="#experience">Mon Expérience</a>
+    ```
+1. Dans le pied de page, ajoute le copyright, l'année et ton adresse e-mail.
 
 ## Check-list
-
-## Ta liste de vérification
 
 ✅ Ton CV est bien une page HTML.
 
@@ -65,12 +65,12 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
 ✅ Le titre principal est un `<h1>` et contient ton nom et prénom.
 
 ✅ Ta page a trois sections avec un titre `<h2>` :
-* Mon expérience
-* Mes compétences
-* Ma formation
+  * Mon expérience
+  * Mes compétences
+  * Ma formation
 
 ✅ Chaque section contient au minimum un paragraphe ou une liste à puce.
 
 ✅ Dans le pied de page, on voit '©2023' suivi de ton adresse e-mail.
 
-✅ Ton e-mail est un lien cliquable qui permet d'envoyer un e-mail directement.§
+✅ Ton e-mail est un lien cliquable qui permet d'envoyer un e-mail directement.
