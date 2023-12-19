@@ -30,7 +30,7 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
    1. Crée la structure de base de ta page avec un **entête**,
       un **contenu principal** et un **pied de page**.
 1. Dans l'entête, ajoute une **photo**.
-   2. Assure-toi qu'un clic dessus ouvre l'image dans un nouvel onglet.
+   * Assure-toi qu'un clic dessus ouvre l'image dans un nouvel onglet.
 1. Toujours dans l'entête, crée un **menu de navigation** avec **trois liens** vers les sections de ta page. Pour l'instant, laisse les liens vides : `<a href="#">Mon Expérience</a>`
    * Mon expérience
    * Mes compétences
