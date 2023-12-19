@@ -82,3 +82,6 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
 ✅ Ton CV est publié en ligne sur GitHub Pages.
 
 Quand tu as terminé, crée une **Pull Request** `mon-cv-html` et demande une **review** à ton enseignant.
+
+# Prochaine étape
+La suite se passe dans le fichier [etape2.md](etape2.md)
