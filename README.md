@@ -22,8 +22,13 @@ _**Alternative :** Fais les 6 chapitres de la [Partie 1 - Maîtrisez les bases d
 ## Ta mission
 1. Crée une nouvelle **branche** `mon-cv-html` dans ton dépôt.
 1. Crée et ajoute un fichier `index.html` au dépôt.
-1. Lis et mets en pratique les étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
-1. Structure ta page avec un **entête**, un **contenu principal** et un **pied de page**.
+1. Lis et mets en pratique les 5 étapes de l'article [Créer une page web de base avec HTML & CSS](https://fallinov.medium.com/cr%C3%A9er-un-page-web-de-base-avec-html-css-2c702e069a0c)
+   1. Ajoute les éléments de base à ton fichier `index.html`
+   1. Ajoute le reset CSS _Normalize.css_
+   1. Crée un fichier CSS de base `main.css` et ajoute les styles de base
+   1. Crée et ajoute une **icône** à ton site
+   1. Crée la structure de base de ta page avec un **entête**,
+      un **contenu principal** et un **pied de page**.
 1. Dans l'entête, ajoute une **photo**.
    2. Assure-toi qu'un clic dessus ouvre l'image dans un nouvel onglet.
 1. Toujours dans l'entête, crée un **menu de navigation** avec **trois liens** vers les sections de ta page. Pour l'instant, laisse les liens vides : `<a href="#">Mon Expérience</a>`
