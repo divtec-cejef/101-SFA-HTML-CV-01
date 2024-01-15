@@ -1,62 +1,52 @@
 # Etape 2 - Entraînez-vous en mettant en forme votre CV
+Pour t'entraîner, réalise cet exercice étape par étape.
 
-**À vous de jouer !** Pour vous entraîner, réalisez cet exercice étape par étape. 
-Une fois que vous avez terminé, vous pouvez comparer votre travail avec les pistes que je vous propose.
-
-Une fois que vous avez terminé, vous pouvez comparer, auto-évaluer, votre
-travail avec ma **Check-list**
+Une fois que tu as terminé, tu peux comparer, auto-évaluer, ton travail avec la **Check-list**
 
 ## Contexte
-
 Vous cherchez du travail et vous avez créé votre CV en ligne en y ajoutant les informations
 de votre parcours professionnel. Cependant, pour que votre CV attire l’œil des recruteurs,
-**une mise en forme impeccable est nécessaire**. 
+**une mise en forme impeccable est nécessaire**.
 
-Pour cela, vous allez devoir **enrichir votre page HTML avec du .CSS**.
+Pour cela, vous allez devoir **enrichir votre page HTML avec du CSS**.
 
-**Avant de commencer**, réaliser les 6 chapitres de la [Partie 2 - Mettez en forme vos pages web avec CSS3
-](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061278-integrez-le-css-dans-la-page-html)
+> Pour t'aider, tu peux t'inspirer de [cet exemple de CV avec CSS](https://divtec-cejef.github.io/101-SFA-HTML-CV-02/)
 
-```
-Partie 2 - Mettez en forme vos pages web avec CSS3
---------------------------------------------------
-1. Intégrez le CSS dans la page HTML
-2. Changez l'apparence du texte
-3. Ajoutez de la couleur et un fond
-4. Créez des bordures et des ombres
-5. Créez des apparences dynamiques
-Quiz : Mettre en forme des pages web avec CSS3
-```
+## Avant de commencer
 
-## Votre mission
+Suis le cours Treehouse [CSS Basics](https://teamtreehouse.com/library/css-basics-5)
 
-* Étape 1 : Créer une nouvelle branche `étape_02_nom_prenom` si c'est pas déjà fait.
-* Étape 2 : Créer un fichier `main.css` et ajoutez-y les effets de style CSS suivants :
-  * changer la couleur d'un des textes ;
-  * changer l'alignement d'un des textes ;
-  * appliquer une image de fond à la page ;
-  * utiliser une police personnalisée via @font-face ;
-  * définir la bordure d'un élément ;
-  * définir l'ombre d'un élément.
+_**Alternative :** Fais les 6 chapitres de la de la [Partie 2 - Mettez en forme vos pages web avec CSS3
+](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061278-integrez-le-css-dans-la-page-html)_
 
-## Check-list
+## Ta mission
 
-✅ Vous avez un fichier `.html` et un fichier `.css`.
+1. Si tu ne l'as pas encore fait, crée une nouvelle branche nommée `mon-cv-css`.
+2. Crée un fichier `main.css` et ajoute les styles CSS suivants :
+  * Modifie la couleur d'un texte ;
+  * Change l'alignement d'un texte ;
+  * Applique une image de fond à la page ;
+  * Utilise une police personnalisée avec @font-face ;
+    * Utilise Google Webfonts Helper [Aide](https://slides.com/fallinov/101-2023-histoire-du-web-et-des-navigateurs#/57)
+  * Définis la bordure d'un élément ;
+  * Ajoute une ombre à un élément.
 
-✅ Votre fichier `.css` est classé dans un dossier `css/`.
+## Liste de vérification
 
-✅ La couleur d’un des textes est changée.
+✅ Tu as un fichier `.html` et un fichier `.css`.
 
-✅ L’alignement d’un des textes est changé.
+✅ Ton fichier `.css` est bien rangé dans un dossier `css/`.
 
-✅ Une image de fond est appliquée à la page.
+✅ La couleur d'un texte a été modifiée.
 
-✅ Une police personnalisée est utilisée via `@font-face`.
+✅ L'alignement d'un texte a été modifié.
 
-✅ La bordure d’un élément est définie.
+✅ Une image de fond a été appliquée à la page.
 
-✅ L’ombre d’un élément est définie.
+✅ Une police personnalisée a été utilisée avec `@font-face`.
 
-## Exemple de solution
-* 👾 CV de Steve Fallet : https://divtec-cejef.github.io/101-SFA-HTML-CV-02/
-* ⌨️ Code source : https://github.com/divtec-cejef/101-SFA-HTML-CV-01/tree/steve-fallet-cv-02
+✅ La bordure d'un élément a été définie.
+
+✅ Une ombre a été ajoutée à un élément.
+
+
