@@ -14,7 +14,10 @@ Pour cela, vous allez devoir **enrichir votre page HTML avec du CSS**.
 
 ## Avant de commencer
 
-Suis le cours Treehouse [CSS Basics](https://teamtreehouse.com/library/css-basics-5)
+Suis les cours Treehouse suivants (tu peux aussi faire l'exercice en parallèle) :
+* [CSS Basics](https://teamtreehouse.com/library/css-basics-5)
+* [CSS Layout](https://teamtreehouse.com/library/css-layout)
+* [Enhancing Design with CSS](https://teamtreehouse.com/library/enhancing-design-with-css)
 
 _**Alternative :** Fais les 6 chapitres de la de la [Partie 2 - Mettez en forme vos pages web avec CSS3
 ](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/8061278-integrez-le-css-dans-la-page-html)_
