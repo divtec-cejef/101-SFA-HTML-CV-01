@@ -1,212 +1,182 @@
-# Les astuces et remarques du père Fallet
-Vous trouverez ci-après un florilège des différentes erreurs que je constate fréquemment
-durant mes revues de codes avec mes chères élèves et apprentis.
+# Astuces et remarques pour une meilleure revue de code HTML et CSS
 
-Bonne lecture, Steve.
-## HTML
-* Organiser votre site avec des dossiers (`css/`, `fonts/`, `img/`, ... )
- ```
-racine-de-mon-site
-  │  
-  └─── css
-  │     └─ fonts.css
-  │     └─ main.css
-  │ 
-  └─── fonts
-  │     └─ arial.eot
-  │     └─ arial.svg
-  │     └─ arial.ttf
-  │     └─ arial.woff
-  │ 
-  └─── img
-  │     └─ logo.svg
-  │     └─ photo-plage.jpg  
-  │ 
-  └─ favicon.ico
-  └─ index.html
- ```
-* Nom des fichiers et dossiers **en minuscules, sans espaces et sans caractères spéciaux** `CSS/Trop Stylé.css` > `css/trop-style.css`
- y compris les images et polices.
-* La page d'accueil de votre site doit se nommer `index.html` tout en minuscule.
-* Définir la **bonne langue** dans `<html>`.
-  Si votre contenu est en français, mettre `<html lang="fr">`, et non `<html lang="en">`.
-* Mettre un vrais `<title>` à votre site !
-  Le titre doit être composé des mêmes mots-clé que le titre principal du site `<h1>`, suivi du nom de votre site.
-```html
-<title>Tout l’assortiment de jouets | Migros</title>
-```` 
-* Il manque `viewport` obligatoire pour un bon affichage sur smartphone 
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-* Ne pas oublier d'ajouter l'**icône de site**, appelée favicon.
-```html
-<link rel="icon" href="favicon.ico">
-```
-* Charger le fichier CSS des polices avant le fichier CSS des styles de base.
-* Pas d'espaces ni de majuscules, ni de caractères spéciaux dans les id ou 
-  class, 
-  utiliser des `-` ou  `_` à la place. `class="épéeRouge"` > `class="epee-rouge"`
-* Supprimer les espaces inutiles au début des balises.
-  * Faux : `<p> apprentie informaticienne 1ère année à l'EMT </p>`
-  * Juste : `<p>apprentie informaticienne 1ère année à l'EMT</p>`
-* Supprimer les espaces dans `href` pour le numéro de tel : `<a href="tel:0041791234567">Mon tel</a>`
-* Un paragraphe `<p>` doit contenir au minimum une phrase. Si ce n'est pas le cas on utilisera une `<div>` à la place.
-* Pas d'espace autour du signe `=` dans les attributs HTML
-    * Faux : `<ul class = "sommaire">`
-    * Juste : `<ul class="sommaire">`
-* Les `<p>` peuvent uniquement contenir des éléments inline comme : `<strong>`, `<em>`, `<a>`, ...
-* On ne peut pas écrire des textes directement dans le `<body>` il faut les ajouter dans un élément comme : `<p>`, `<div>`, `<h1>`, ...
-* Aérer en ajoutant une ligne vide avant les <h2>
-* Pas utiliser `<br>` pour créer des espaces ou des marges. On utilise les `<br>` uniquement dans les blocs de textes.
-  * Utiliser le CSS avec `padding` ou `margin` pour créer des marges et espacer les éléments.
-* Ne pas oublier de préciser le texte alternatif des images avec l'attribut `alt=""`
-```html
-    <img src="img/fifty-burgers.png" alt="Logo Fifty Burgers"/>
-```` 
-* Indentation, mettre à la ligne les éléments contenus dans d'autres éléments et les indenter avec 2 ou 4 espaces.
-```html
-<!-- FAUX -->
-<main><h1>Mon titre</h1>
-<p>Mon para</p>
-</main>
-<!-- JUSTE -->
-<main>
-  <h1>Mon titre</h1>
-  <p>Mon para</p>
-</main>
-```
-* Eviter les lignes de code trop grandes (plus de 100 caractère)
-```html
-<!-- FAUX -->
-<a href="./icone/apple-touch-icon.png"><img src="icone/favicon-32x32.png" alt="photo pour mon cv" title="Cliquez pour agrandir" ></a>
-<!-- JUSTE -->
-<a href="./icone/apple-touch-icon.png">
-  <img src="icone/favicon-32x32.png"
-       alt="photo pour mon cv"
-       title="Cliquez pour agrandir"
-  >
-</a>
-```
-* Séparer le contenu `<body>` en trois parties :
-```html
-<body>
-    <header>
-        ...
-    </header>
-    <main>
-       ...
-    </main>
-    <footer>
-       ...
-    </footer>
-</body>
-```
-* Préférer les entités HTML pour les caractères spéciaux. Pour © utiliser &copy;
-* Éviter de donner des tailles aux images en HTML, le faire en CSS avec `height` et `width`
-* Toujours **terminer** vos fichiers de code (HTML, CSS, JavaScript, ...) par une **nouvelle ligne vide** pour simplifier les traitements automatisés.
-* Valider votre code : https://validator.w3.org/nu/
-* On peut ajouter l'objet de l'e-mail `<a href="mailto:steve.fallet@divtec.ch?subject=tutu">` 
-## CSS
-* Définir le style des liens, couleur.
-```css
-a {
-    color:red;
-}
-```
-* Proposer un style différent pour les liens survolés 
-```css
-a:hover {
-    color:blue;
-}
-```
-* `max-width: 100%` pour toutes les images
-* Il manque des instructions pour le design de base du site
-```css
-body {
-    font-family: Verdana, sans-serif;   /* Police d'écriture de base */
-    font-weight: normal;                /* Épaisseur du texte de base*/
-    font-size: 1.2rem;                  /* taille du texte de base*/
-    line-height: 1.4;                   /* Hauteur de ligne de base, généralement entre 1.3 et 1.7 */
-    color: black;                       /* couleur du texte de base*/
-    background-color: white;            /* couleur d'arrière plan du site */
-}
-```
-* Pas oublier de définir une police générique `sans-serif`, `serif` ou `cursive` pour les familles de polices
-    `font-family: Roboto, sans-serif;`
-* Dès que l'on change la police d'écriture, il faut préciser l'épaisseur à utiliser
-```css
-h1 {
-    font-family: "Sofia Sans Semi Condensed", sans-serif;
-    font-weight: 400;
-}
-```
-* Jamais de `font-size` en `px`, utiliser les `em` ou `rem`
-* Manque règle pour la fluidité des images
-```css
-img {
-    max-width:100%;
-    height: auto;
-}
-```
-* utiliser des noms de classes CSS représentatifs et compréhensibles.
-* Utiliser les `em` à la place des % pour les tailles de textes : `200% => 2em`
-* Toujours écrire les noms des couleurs en minuscules
-* Toujours ajouter un espace avant l'accolade d'ouverture
-* Lien pour les e-mails `<a href="mailto:steve.fallet@kode.ch?subject=contact">steve.fallet@kode.ch</a>"`
-```css
-/* FAUX */
-body{
-/* JUSTE */
-body {
-```
-* Toujours ajouter une ligne blanche entre deux blocs de règles CSS
-```
-h2 {
-    color:red;
-}
+Voici un guide organisé pour regrouper les remarques et astuces élaborées lors des revues de code. Ce document est divisé en deux parties : **HTML** et **CSS**.
 
-h3 {
-    color:blue;
-}
-```  
-* Mettre les accolade sur la même ligne que le sélecteur
-```
-/* Faux */
-h1
-{
-    color:red;
-}
+---
 
-/* Faux */
-h1 { color:red; }
+## **HTML**
 
-/* Juste */
-h1 {
-    color:red;
-}
-```
-* Revenir à la ligne après la `,` si plusieurs sélecteurs
-```css
-/* Faux */ 
-h1, h2, h3 {
-    color:red;
-}
+### Organisation et Structure
 
-/* Juste */
-h1,
-h2,
-h3 {
-    color:red;
-}
-```
-* Si valeur `0` pas nécessaire de préciser l'unité : `margin: 0px => margin: 0;`
-* Pour les images d'arrière-plan, mettre l'url ou le chemin entre guillemets 
-```css
-/* Faux */
-background-image: url(https://img.freepik.com/photos.jpg);
-/* Juste */
-background-image: url("https://img.freepik.com/photos.jpg");
-```
+- Organisez votre site avec des dossiers structurés :
 
+  ```
+  racine-de-mon-site
+    ├── css
+    │   └─ main.css
+    │   └─ fonts.css
+    ├── fonts
+    │   └─ arial.woff
+    │   └─ arial.ttf
+    ├── img
+    │   └─ logo.svg
+    │   └─ photo-plage.jpg
+    ├─ favicon.ico
+    └─ index.html
+  ```
 
+- Utilisez des noms de fichiers et de dossiers **en minuscules**, sans espaces ni caractères spéciaux (exemple : `css/trop-style.css`).
+
+- La page d’accueil doit obligatoirement être nommée **`index.html`**.
+
+### Meilleures Pratiques de Balises
+
+- **Langue** : Définissez la langue dans l'attribut `<html lang="fr">` (ou autre).
+
+- **Titre** : Ajoutez un `<title>` pertinent, correspondant au titre principal de votre site.
+
+  ```html
+  <title>Tout l’assortiment de jouets | Migros</title>
+  ```
+
+- **Meta Viewport** : Assurez-vous que votre site est adapté aux smartphones.
+
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ```
+
+- **Favicon** : Incluez une icône de site.
+
+  ```html
+  <link rel="icon" href="favicon.ico">
+  ```
+
+### Règles de Code
+
+- **Indentation** : Indentez avec 2 ou 4 espaces.
+
+  ```html
+  <main>
+    <h1>Mon titre</h1>
+    <p>Mon paragraphe</p>
+  </main>
+  ```
+
+- **Pas d’espaces inutiles** :
+
+  ```html
+  <!-- Faux -->
+  <ul class = "sommaire">
+  <!-- Juste -->
+  <ul class="sommaire">
+  ```
+
+- **Balises `<p>`** : Contiennent des phrases complètes, pas de simples mots.
+
+- **Textes Inline uniquement** : Les `<p>` ne doivent contenir que des balises inline (`<strong>`, `<em>`, `<a>`, etc.).
+
+- **Texte alternatif** : Utilisez `alt` pour décrire vos images.
+
+  ```html
+  <img src="img/fifty-burgers.png" alt="Logo Fifty Burgers">
+  ```
+
+- **Séparation logique** : Séparez votre contenu en `<header>`, `<main>` et `<footer>`.
+
+- **Pas de `<br>` pour les espacements** : Utilisez les styles CSS (padding/margin).
+
+- **Structure sémantique** : Privilégiez les balises sémantiques appropriées (`<article>`, `<section>`, `<aside>`, etc.) pour organiser votre contenu.
+
+### Validation et Accessibilité
+
+- **Entités HTML** : Préférez `&copy;` pour `©`.
+- **Pas de tailles d’images en HTML** : Préférez CSS.
+- **Fin de fichier** : Ajoutez une ligne vide en fin de fichier.
+- **Validation** : Utilisez [W3C Validator](https://validator.w3.org/nu/).
+
+---
+
+## **CSS**
+
+### Organisation et Structure
+
+- **Nom des classes** : Privilégiez des noms clairs et représentatifs.
+
+- **Espaces** : Toujours un espace avant les accolades et entre les blocs.
+
+  ```css
+  h1 {
+      color: red;
+  }
+  
+  p {
+      color: blue;
+  }
+  ```
+
+- **Revenir à la ligne** : Après une `,` dans les sélecteurs multiples.
+
+  ```css
+  h1,
+  h2,
+  h3 {
+      color: red;
+  }
+  ```
+
+### Bonnes Pratiques de Style
+
+- **Liens** : Définissez leur style et leur hover.
+
+  ```css
+  a {
+      color: red;
+  }
+  a:hover {
+      color: blue;
+  }
+  ```
+
+- **Fluidité des images** :
+
+  ```css
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+  ```
+
+- **Unités** : Préférez `rem` ou `em` à `px`.
+
+- **Couleurs** : Toujours écrire les noms de couleurs en minuscules.
+
+- **Fontes** : Toujours définir une famille de secours (exemple : `sans-serif`).
+
+  ```css
+  body {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.2rem;
+      font-weight: normal;
+      line-height: 1.4;
+  }
+  ```
+
+### Optimisation
+
+- **Unité inutile pour `0`** :
+
+  ```css
+  margin: 0; /* et non 0px */
+  ```
+
+- **Images d’arrière-plan** : Mettez les URL entre guillemets.
+
+  ```css
+  background-image: url("https://example.com/image.jpg");
+  ```
+
+- **Outils d’optimisation** : Minifiez vos fichiers CSS avant leur mise en production pour réduire leur poids. Utilisez des outils comme PostCSS ou Autoprefixer pour ajouter automatiquement les préfixes nécessaires.
+
+---
+
+Adoptez ces bonnes pratiques pour améliorer la qualité de votre code et en faciliter la maintenance. Bonne continuation dans vos projets web !
